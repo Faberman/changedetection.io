@@ -15,7 +15,7 @@ services:
       - PORT= 5002
       - PUID= 1000
       - PGID= 1000
-      - PLAYWRIGHT_DRIVER_URL=ws://172.31.27.52:3000/?stealth=1&--disable-web-security=true
+      - PLAYWRIGHT_DRIVER_URL=ws://playwright-chrome:3000/?stealth=1&--disable-web-security=true
     ports:
       - 5002:5002
     restart: unless-stopped
